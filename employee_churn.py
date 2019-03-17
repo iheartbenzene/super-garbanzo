@@ -39,7 +39,7 @@ from plotly.offline import iplot, init_notebook_mode
 
 #plotly offline
 from plotly.offline import download_plotlyjs, init_notebook_mode, plot, iplot
-import cufflinks as cf
+import cufflinks as cf #Need to research this.
 cf.set_config_file(offline=True)
 import cufflinks
 cufflinks.go_offline(connected=True)
@@ -67,7 +67,7 @@ from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
 from sklearn.naive_bayes import GaussianNB
 from sklearn.svm import SVC
 from sklearn.neighbors import KNeighborsClassifier
-from xgboost import XGBClassifier
+from xgboost import XGBClassifier #Need to research this.
 from sklearn.ensemble import RandomForestClassifier
 
 #helpers
