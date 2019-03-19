@@ -1,6 +1,10 @@
 # -*- coding: utf-8 -*-
 """
 This file was made in Spyder Editor
+
+Created on Sat Mar 17 23:31:45 2019
+
+@author: jevon
 """
 # Template built using https://towardsdatascience.com/building-an-employee-churn-model-in-python-to-develop-a-strategic-retention-plan-57d5bd882c2d?gi=a875e936cad7
 
@@ -8,6 +12,8 @@ This file was made in Spyder Editor
 
 #Note: Just a skeleton and therefore missing sections.
 #Can be updated later.
+
+#This is a supervised classification problem.
 
 import pandas as pd
 from pandas.plotting import scatter_matrix
@@ -24,8 +30,8 @@ import seaborn as sns
 from matplotlib import pyplot
 import matplotlib.pyplot as plt
 import matplotlib.pylab as pylab
-import matplotlib
-%matplotlib inline
+import matplotlib 
+% matplotlib inline
 color = sns.color_palette()
 from IPython.display import display
 pd.options.display.max_columns = None
@@ -94,13 +100,46 @@ from dateutil.parser import parse
 df_source = pd.read_excel('', sheet_name = 0) #add path to Excel source file
 print("Shape of dataframe is: {}".format(df_source.shape))
 
-df_humRes = df_source.copy()
+df_humRes = df_source.copy() #exactly what it suggests
 
 df_humRes.columns
 
 df_humRes.head()
 
 df_humRes.columns.to_series().groupby(df_humRes.dtypes).groups
+
+#Datatypes and missing values
+dt_humRes.info()
+
+#Overview of numerical features
+df_humRes.describe()
+
+df_humRes.hist(figsize=(25,25))
+plt.show()
+
+#Overview of features by attribute
+
+#Age as an example
+(mu, sigma) = norm.fit(df_humRes.loc[dr_humRes['Attrition'] == 'Yes', 'Age'])
+print('Ex: average age = {:0.2f} years with standard deviation = {0.2f}' .format(mu, sigma))
+(mu, sigma) = norm.fit(df_humRes.loc[df_humRes['Attrition'] == 'No', 'Age'])
+print('Current: average age = {:0.2f} years with standard deviation = {0.2f}' .format(mu, sigma))
+
+#Histogram data
+x1 = df_humRes.loc[df_humRes['Attrition'] == 'No', 'Age']
+x2 = df_humRes.loc[df_humRes['Attrition'] == 'Yes', 'Age']
+#Grouping
+hist_data = [x1, x2]
+group_labels = ['Active', 'Inactive']
+#Distplot
+fig = ff.create_distplot(hist_data, group_labels, curve_type = 'kde', show_hist = False, show_rug = False)
+#Title
+fig['Layout'].update(title = 'Age Distritbuion by Attrition')
+fig['Layout'].update(xaxis = dict(range=[10, 60], dticks = 5))
+#plot
+py.iplot(fig, filename = 'Distplot with Multiple Datasets')
+
+#The other features can be added in much the same way, thereby accounting for things like education, gender, marital status, etc.
 
 #label encoding object
 
