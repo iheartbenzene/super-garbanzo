@@ -43,7 +43,6 @@ Helpful Links:
 ### Age data.
 
 ![Imgur](https://i.imgur.com/BFyF9cw.png)
-![Imgur](https://i.imgur.com/HFKtEEW.png)
 
 ### Education data.
 
