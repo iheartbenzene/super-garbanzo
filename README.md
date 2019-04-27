@@ -60,6 +60,58 @@ Helpful Links:
 
 ![Imgur](https://i.imgur.com/ST7PsX5.png)
 
+### Business travel data.
+
+![Imgur](https://i.imgur.com/wNCZbxX.png)
+
+### Job role data.
+
+![Imgur](https://i.imgur.com/4KdnHhP.png)
+
+### Job level data.
+
+![Imgur](https://i.imgur.com/dS58zAj.png)
+
+### Job involvement data.
+
+![Imgur](https://i.imgur.com/XT4kb8G.png)
+
+### Training incident data. 
+
+![Imgur](https://i.imgur.com/XiRqBvh.png)
+
+### Prior companies worked for data.
+
+![Imgur](https://i.imgur.com/AgJgtut.png)
+
+### Years at current company data.
+
+![Imgur](https://i.imgur.com/S20ooY0.png)
+
+### Years with current manager data.
+
+![Imgur](https://i.imgur.com/n9hEoce.png)
+
+### Work-life balance data.
+
+![Imgur](https://i.imgur.com/VQvcsGV.png)
+
+### Overtime data.
+
+![Imgur](https://i.imgur.com/8IfE22a.png)
+
+### Monthly income data.
+
+![Imgur](https://i.imgur.com/X5h9bcu.png)
+
+### Salary hikes data.
+
+![Imgur](https://i.imgur.com/M0pwXno.png)
+
+### Attrition distribution data.
+
+![Imgur](https://i.imgur.com/Y7DRgXY.png)
+
 ### Heatmap.
 
 ![Imgur](https://i.imgur.com/Ynh1aUo.png)
