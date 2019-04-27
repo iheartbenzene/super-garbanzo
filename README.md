@@ -1,11 +1,62 @@
-# Customize Your Data Visualization
+# A Logistic Regression and Random Forest Classifier Analysis on IBM's Dataset for Employee Attrittion.
 
-Change the data frame associations to match the columns of your spreadsheet as necessary.
+The dataset provided by IBM has a primary purpose of identifying some of the factors influencing employee attrition.
 
-Tunable by changing the data frame headings matching the columns in the associated spreadsheet.
+***
+## Getting Started:
 
-Data taken from IBM's employee churn model and made using an online tutorial as well as the associated repo.
+ 
+SSH Support
+```bash
+git clone git@github.com:iheartbenzene/super-garbanzo.git 
+&& cd super-garbanzo/ 
+&& jupyter notebook
+```
 
-Tutorial used: https://towardsdatascience.com/building-an-employee-churn-model-in-python-to-develop-a-strategic-retention-plan-57d5bd882c2d?gi=a875e936cad7
+HTTPS Support
+```bash
+git clone https://github.com/iheartbenzene/super-garbanzo.git
+&& cd super-garbanzo/
+&& jupyter notebook
+```
 
-Original GitHub repo: https://github.com/hamzaben86/Employee-Churn-Predictive-Model
+## This project uses Python3 and Jupyter Notebook.
+
+Helpful Links: 
+ + Anaconda: https://www.anaconda.com/distribution/#download-section
+ + Jupyter Notebook: https://jupyter.org/install
+
+## Load the Notebook
+
+`dataVizualization.ipynb`
+
+***
+
+## Image Summary
+
+### Overview of Columns in Dataset.
+
+![Imgur](https://i.imgur.com/FfaJK6T.png)
+![Imgur](https://i.imgur.com/BerTOhf.png)
+
+### Age data.
+
+![Imgur](https://i.imgur.com/BFyF9cw.png)
+![Imgur](https://i.imgur.com/HFKtEEW.png)
+
+### Education data.
+
+![Imgur](https://i.imgur.com/FaedKr9.png)
+
+### Chromosome related data.
+
+![Imgur](https://i.imgur.com/6OZUsNT.png)
+
+### Marital status data.
+
+![Imgur](https://i.imgur.com/z7OxOXG.png)
+
+### Distance from home data.
+
+![Imgur](https://i.imgur.com/ST7PsX5.png)
+
