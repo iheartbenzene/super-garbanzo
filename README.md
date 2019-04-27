@@ -28,7 +28,7 @@ Helpful Links:
 
 ## Load the Notebook
 
-`dataVizualization.ipynb`
+`dataVisualization.ipynb`
 
 ***
 
