@@ -20,10 +20,11 @@ git clone https://github.com/iheartbenzene/super-garbanzo.git
 && jupyter notebook
 ```
 
-## This project uses Python3 and Jupyter Notebook.
+## This project uses Python3, Pandas, and Jupyter Notebook.
 
 Helpful Links: 
  + Anaconda: https://www.anaconda.com/distribution/#download-section
+ + Pandas: https://github.com/pandas-dev/pandas or https://pandas.pydata.org/
  + Jupyter Notebook: https://jupyter.org/install
 
 ## Load the Notebook
