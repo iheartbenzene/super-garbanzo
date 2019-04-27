@@ -60,3 +60,20 @@ Helpful Links:
 
 ![Imgur](https://i.imgur.com/ST7PsX5.png)
 
+### Heatmap.
+
+![Imgur](https://i.imgur.com/Ynh1aUo.png)
+
+### Confusion matrix.
+
+![Imgur](https://i.imgur.com/VuRs4jC.png)
+
+### Feature importance via Random Forest Classifier.
+
+![Imgur](https://i.imgur.com/ZdPhjOx.png)
+
+### Correlation coefficients.
+
+![Imgur](https://i.imgur.com/zvotI5x.png)
+
+
