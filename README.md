@@ -1,4 +1,4 @@
-# A Logistic Regression and Random Forest Classifier Analysis on IBM's Dataset for Employee Attrittion.
+# A Logistic Regression and Random Forest Classifier Analysis of IBM's Dataset for Employee Attrition.
 
 The dataset provided by IBM has a primary purpose of identifying some of the factors influencing employee attrition.
 
